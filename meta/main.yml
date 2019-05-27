@@ -1,20 +1,13 @@
 ---
-dependencies: []
-
 galaxy_info:
-  author: geerlingguy
-  description: AWS Inspector installation for Linux.
-  company: "Midwestern Mac, LLC"
-  license: "license (BSD, MIT)"
-  min_ansible_version: 2.0
+  author: Petteri Leppikallio
+  description: >
+              AWS Inspector installation for Linux. Original artwork of geerlingguy,
+              https://github.com/geerlingguy/ansible-role-aws-inspector
+  license: license (MIT, BSD)
+  min_ansible_version: 2.4
   platforms:
-    - name: EL
-      versions:
-        - all
-    - name: Debian
-      versions:
-        - all
-    - name: Ubuntu
+    - name: Amazon
       versions:
         - all
   galaxy_tags:

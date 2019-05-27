@@ -4,11 +4,9 @@ services: docker
 
 env:
   global:
-    - ROLE_NAME: aws-inspector
+    - ROLE_NAME: aws-inspector-agent
   matrix:
-    - MOLECULE_DISTRO: centos7
-    - MOLECULE_DISTRO: debian9
-    - MOLECULE_DISTRO: ubuntu1804
+    - MOLECULE_DISTRO: amazonlinux
 
 install:
   # Install test dependencies.
@@ -17,8 +15,8 @@ install:
 before_script:
   # Use actual Ansible Galaxy role name for the project directory.
   - cd ../
-  - mv ansible-role-$ROLE_NAME geerlingguy.$ROLE_NAME
-  - cd geerlingguy.$ROLE_NAME
+  - mv ansible-role-$ROLE_NAME leppikallio.$ROLE_NAME
+  - cd leppikallio.$ROLE_NAME
 
 script:
   # Run tests.
