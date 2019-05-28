@@ -3,6 +3,9 @@ Role Name
 
 aws-inspector-agent
 
+[![Build Status](https://travis-ci.org/leppikallio/aws-inspector-agent.svg?branch=master)](https://travis-ci.org/leppikallio/aws-inspector-agent)
+
+
 Original artwork by Mr. Jeff Geerling, https://github.com/geerlingguy/ansible-role-aws-inspector
 
 
