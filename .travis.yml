@@ -7,7 +7,7 @@ env:
   global:
     - ROLE_NAME: aws-inspector-agent
   matrix:
-    - MOLECULE_DISTRO: amazonlinux
+    - MOLECULE_DISTRO: amazonlinux2
 
 install:
   # Install test dependencies.
