@@ -21,6 +21,7 @@ provisioner:
     name: ansible-lint
   playbooks:
     converge: ${MOLECULE_PLAYBOOK:-playbook.yml}
+  log: true
 scenario:
   name: default
 verifier:
