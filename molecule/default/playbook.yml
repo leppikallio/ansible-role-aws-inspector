@@ -13,4 +13,4 @@
       changed_when: false
 
   roles:
-    - role: aws-inspector-agent
+    - role: leppikallio.aws-inspector-agent
