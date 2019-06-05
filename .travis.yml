@@ -9,8 +9,8 @@ env:
   - MOLECULE_DISTRO: amazonlinux2
 install:
 - pip install molecule docker
-- npm install -g snyk
-- snyk test
+#- npm install -g snyk
+#- snyk test
 before_script:
 - cd ../
 - mv $ROLE_NAME leppikallio.$ROLE_NAME
